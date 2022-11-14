@@ -1,0 +1,111 @@
+.contact-page{
+    .text-zone{
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 45%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        
+    }
+
+    h1{
+        font-size: 53px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-weight: 800;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+    }
+    p{
+        font-size: 17px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: fadeIn 5s 2.8s backwards ;
+    }
+    a{
+        
+        animation: fadeIn 5s 2.8s backwards ;
+    }
+}
+
+.contact-form{
+    width: 100%;
+    margin-top: 400px;
+
+    ul{
+        padding: 0;
+        margin: 0;
+
+        li{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 3s 3s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+        li.half{
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type='text'],
+    input[type='email'],
+    input[type='subject']{
+        width: 100%;
+        border: 0;
+        background-color: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    textarea{
+        width: 100%;
+        border: 0;
+        background-color: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+    .flat-button{
+        color: black;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid white;
+        margin-top: 0px;
+        float: right;
+        animation: fadeIn 5s 2.8s backwards ;
+        white-space: nowrap;
+        
+    
+    }
+}
